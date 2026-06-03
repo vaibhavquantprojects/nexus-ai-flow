@@ -9,7 +9,7 @@ Current crypto-bridges are centralized, opaque, and highly vulnerable to "halluc
 
 ##  Technical Architecture
 `nexus-ai-flow` is built on a modular, agent-first architecture:
-- **`crypto_engine.py`**: The heart of the protocol. It handles the Ed25519-based signature verification to ensure every transaction is authentic.
+- **`cryptohyperbridge.py`**: The heart of the protocol. It handles the Ed25519-based signature verification to ensure every transaction is authentic.
 - **`main.py`**: The entry-point orchestrator that manages agentic requests and triggers the routing flow.
 - **State Verification**: Every action is hashed, logged, and non-repudiable.
 
